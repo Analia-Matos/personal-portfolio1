@@ -70,7 +70,7 @@ body {
 }
 
 #welcome-section h2 {
-    font-size: 1.2rem; /* Tamanho da fonte reduzido */
+    font-size: 1rem; /* Tamanho da fonte reduzido */
     line-height: 1.6; /* Espaçamento entre linhas */
     max-width: 800px; /* Largura máxima do texto */
     margin: 0 auto; /* Centraliza o texto */

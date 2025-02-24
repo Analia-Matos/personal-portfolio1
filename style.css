@@ -70,9 +70,11 @@ body {
 }
 
 #welcome-section h2 {
-    font-size: 1.5rem;
-    font-weight: normal;
-    color: #80cbc4; /* Soft green */
+    font-size: 1.2rem; /* Tamanho da fonte reduzido */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    max-width: 800px; /* Largura máxima do texto */
+    margin: 0 auto; /* Centraliza o texto */
+    color: #80cbc4; /* Cor do texto (soft green) */
 }
 
 /* Projects Section */

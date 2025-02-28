@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto UI Challenge - Meu Portfolio</title>
+    <title>Projeto UI Challenge - Meu Portfólio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,23 +22,45 @@
         <section id="project-details">
             <h2>30 Days UI Challenge</h2>
             <div class="project-images">
-              <div class="gallery-container">
-                <img src="accordion.jpg" alt="Project 3 Image 1">
-                <img src="mockup system status page.jpg" alt="Project 3 Image 2"> 
-                <img src="contact session active.jpg" alt="Project 3 Image 3"> 
-              </div>
-             </div>
-            <p>Desafio de criação de elementos de interface de usuário (UI) durante 30 dias consecutivos.
+                <h3>Componentes Criados</h3>
+                <div class="gallery-container">
+                    <picture>
+                        <source srcset="accordion.webp" type="image/webp">
+                        <img src="accordion.jpg" alt="Accordion - UI Challenge" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="mockup system status page.webp" type="image/webp">
+                        <img src="mockup system status page.jpg" alt="Página de Status - UI Challenge" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="contact session active.webp" type="image/webp">
+                        <img src="contact session active.jpg" alt="Sessão de Contato - UI Challenge" class="gallery-image">
+                    </picture>
+                </div>
+            </div>
+            <p>
+                Desafio de criação de elementos de interface de usuário (UI) durante 30 dias consecutivos.
                 Cada dia é dedicado ao desenvolvimento de um componente ou tela, como botões, formulários, 
-                barras de navegação e páginas de status. O objetivo é aprimorar minhas habilidades em design 
-                de interfaces, explorar tendências de UX/UI e praticar a consistência visual. 
-                Este projeto está em andamento e reflete meu compromisso com o aprendizado contínuo e a 
-                experimentação criativa.</p>
+                barras de navegação e páginas de status.
+            </p>
+            <p>
+                O objetivo é aprimorar minhas habilidades em design de interfaces, explorar tendências de UX/UI 
+                e praticar a consistência visual. Este projeto está em andamento e reflete meu compromisso 
+                com o aprendizado contínuo e a experimentação criativa.
+            </p>
         </section>
     </main>
 
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
     <footer>
-        <a id="profile-link" href="https://www.linkedin.com/in/anália-matos-268838155" target="_blank">LinkedIn</a>
+        <a id="profile-link" href="https://www.linkedin.com/in/anália-matos-268838155" target="_blank">Conecte-se comigo no LinkedIn</a>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

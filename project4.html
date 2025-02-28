@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Haven Cookies - Meu Portfolio</title>
+    <title>Projeto Heaven Cookies - Meu Portfólio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,29 +20,63 @@
 
     <main>
         <section id="project-details">
-            <h2>Identidade Visual e social media</h2>
+            <h2>Heaven Cookies</h2>
             <div class="project-images">
-              <div class="gallery-container">
-                <img src="cookies cores.png" alt="Project 4 Image 1">
-                <img src="criativos.png" alt="Project 4 Image 2">
-                <img src="heaven.png" alt="Project 4 Image 3">
-                  <img src="posts.png" alt="Project 4 Image 4">
-                <img src="peças-cookies.jpg" alt="Project 4 Image 5">
-                <img src="cookies tipos.png" alt="Project 4 Image 6">
-                <img src="mockup insta.png" alt="Project 4 Image 7">
-               </div>
+                <h3>Elementos da Identidade Visual</h3>
+                <div class="gallery-container">
+                    <picture>
+                        <source srcset="cookies cores.webp" type="image/webp">
+                        <img src="cookies cores.png" alt="Paleta de Cores - Heaven Cookies" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="criativos.webp" type="image/webp">
+                        <img src="criativos.png" alt="Criativos - Heaven Cookies" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="heaven.webp" type="image/webp">
+                        <img src="heaven.png" alt="Logotipo - Heaven Cookies" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="posts.webp" type="image/webp">
+                        <img src="posts.png" alt="Posts para Redes Sociais - Heaven Cookies" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="peças-cookies.webp" type="image/webp">
+                        <img src="peças-cookies.jpg" alt="Peças Gráficas - Heaven Cookies" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="cookies tipos.webp" type="image/webp">
+                        <img src="cookies tipos.png" alt="Tipos de Cookies - Heaven Cookies" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="mockup insta.webp" type="image/webp">
+                        <img src="mockup insta.png" alt="Mockup do Instagram - Heaven Cookies" class="gallery-image">
+                    </picture>
+                </div>
             </div>
             <p>
                 Criação da identidade visual e estratégia de social media para a Heaven Cookies, uma marca fictícia de 
                 cookies artesanais. O projeto incluiu o desenvolvimento do logotipo, paleta de cores, tipografia, 
-                embalagens, peças gráficas para redes sociais e mockups de aplicativos. A identidade foi pensada para 
-                transmitir a qualidade e personalidade da marca, com um toque caseiro e acolhedor, alinhado ao
-                público-alvo da marca. O briefing foi baseado em um desafio retirado do site <a href="https://tifolio.com.br/" target="_blank">Tifólio</a>.</p>
+                embalagens, peças gráficas para redes sociais e mockups de aplicativos.
+            </p>
+            <p>
+                A identidade foi pensada para transmitir a qualidade e personalidade da marca, com um toque caseiro 
+                e acolhedor, alinhado ao público-alvo da marca. O briefing foi baseado em um desafio retirado do site 
+                <a href="https://tifolio.com.br/" target="_blank">Tifólio</a>.
+            </p>
         </section>
     </main>
 
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
     <footer>
-        <a id="profile-link" href="https://www.linkedin.com/in/anália-matos-268838155" target="_blank">LinkedIn</a>
+        <a id="profile-link" href="https://www.linkedin.com/in/anália-matos-268838155" target="_blank">Conecte-se comigo no LinkedIn</a>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

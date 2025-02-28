@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,29 +22,68 @@
         <section id="project-details">
             <h2>Floricultura</h2>
             <div class="project-images">
+                <h3>Galeria do Projeto</h3>
                 <div class="gallery-container">
-                    <img src="manual da amrca.jpg" alt="Project 1 Image 1">
-                    <img src="logo flor.jpg" alt="Project 1 Image 2">
-                    <img src="paleta cores.jpg" alt="Project 1 Image 3">
-                    <img src="tipografias.jpg" alt="Project 1 Image 4">
-                    <img src="grafismos.jpg" alt="Project 1 Image 5">
-                    <img src="cartões.jpg" alt="Project 1 Image 6">
-                    <img src="sacola.jpg" alt="Project 1 Image 7">
-                    <img src="site page.jpg" alt="Project 1 Image 8">
-                    <img src="mockup site (1).jpg" alt="Project 1 Image 9">
-                    <img src="mockup app.jpg" alt="Project 1 Image 10">
+                    <picture>
+                        <source srcset="manual da marca.webp" type="image/webp">
+                        <img src="manual da marca.jpg" alt="Manual da Marca - Projeto Floricultura" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="logo flor.webp" type="image/webp">
+                        <img src="logo flor.jpg" alt="Logotipo - Projeto Floricultura" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="paleta cores.webp" type="image/webp">
+                        <img src="paleta cores.jpg" alt="Paleta de Cores - Projeto Floricultura" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="tipografias.webp" type="image/webp">
+                        <img src="tipografias.jpg" alt="Tipografias - Projeto Floricultura" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="grafismos.webp" type="image/webp">
+                        <img src="grafismos.jpg" alt="Grafismos - Projeto Floricultura" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="cartões.webp" type="image/webp">
+                        <img src="cartões.jpg" alt="Cartões de Visita - Projeto Floricultura" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="sacola.webp" type="image/webp">
+                        <img src="sacola.jpg" alt="Sacola - Projeto Floricultura" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="site page.webp" type="image/webp">
+                        <img src="site page.jpg" alt="Página do Site - Projeto Floricultura" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="mockup site (1).webp" type="image/webp">
+                        <img src="mockup site (1).jpg" alt="Mockup do Site - Projeto Floricultura" class="gallery-image">
+                    </picture>
+                    <picture>
+                        <source srcset="mockup app.webp" type="image/webp">
+                        <img src="mockup app.jpg" alt="Mockup do App - Projeto Floricultura" class="gallery-image">
+                    </picture>
                 </div>
             </div>
-            <p><p>
-    Este projeto foi um estudo de caso para criar uma identidade visual completa para uma floricultura fictícia. 
-    Foi desenvovido o manual da marca, incluindo logotipo, paleta de cores, tipografias, grafismos e aplicações em 
-    diversos materiais, como cartões de visita, sacolas e mockups de site e aplicativo.
-</p></p>
+            <p>
+                Este projeto foi um estudo de caso para criar uma identidade visual completa para uma floricultura fictícia. 
+                Foi desenvolvido o manual da marca, incluindo logotipo, paleta de cores, tipografias, grafismos e aplicações 
+                em diversos materiais, como cartões de visita, sacolas e mockups de site e aplicativo.
+            </p>
         </section>
     </main>
 
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
     <footer>
-        <a id="profile-link" href="https://www.linkedin.com/in/anália-matos-268838155" target="_blank">LinkedIn</a>
+        <a id="profile-link" href="https://www.linkedin.com/in/anália-matos-268838155" target="_blank">Conecte-se comigo no LinkedIn</a>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

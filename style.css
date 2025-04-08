@@ -188,14 +188,20 @@ footer a:hover {
         width: 100%;
         max-width: 300px;
     }
+    
+    .project-images {
+        padding-top: 60px;
+        margin-top: -60px;
+    }
 }
 
 /* Estilos para a galeria de imagens na página de detalhes */
 .project-images {
     padding: 20px;
     text-align: center;
+    padding-top: 80px; /* Adicionado */
+    margin-top: -80px; /* Adicionado */
 }
-
 .gallery-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Colunas responsivas */

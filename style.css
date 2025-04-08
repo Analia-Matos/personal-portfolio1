@@ -199,8 +199,8 @@ footer a:hover {
 .project-images {
     padding: 20px;
     text-align: center;
-    padding-top: 80px; /* Adicionado */
-    margin-top: -80px; /* Adicionado */
+    padding-top: 100px; /* Adicionado */
+    margin-top: -100px; /* Adicionado */
 }
 .gallery-container {
     display: grid;

@@ -197,9 +197,9 @@ footer a:hover {
 
 /* Estilos para a galeria de imagens na página de detalhes */
 .project-images {
-    padding-top: 70px;
-    text-align: left; /* Garante que os elementos filhos herdem alinhamento à esquerda */
-}
+    padding: 20px;
+    text-align: center;
+    padding-top: 70px; /* Adicionado */
     
 }
 .gallery-container {
@@ -267,15 +267,8 @@ footer a:hover {
     align-items: flex-start;
     margin-bottom: 30px;
     padding: 0 20px;
-    width: 100%; /* Garante que ocupe toda a largura */
-    max-width: 100%; /* Evita que fique limitado */
 }
-#project-details {
-    text-align: left; /* Isso corrige o alinhamento geral */
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto; /* Centraliza apenas o bloco, não o conteúdo */
-}
+
 .project-tools {
     flex: 1;
     max-width: 40%;
@@ -322,14 +315,4 @@ footer a:hover {
     .project-tools h3 {
         font-size: 1.5rem;
     }
-}
-/* Correção específica para a página de detalhes */
-#project-details h2 {
-    text-align: left;
-    padding: 0 20px;
-    margin-bottom: 20px;
-}
-
-.project-header {
-    text-align: left !important; /* Força o alinhamento */
 }

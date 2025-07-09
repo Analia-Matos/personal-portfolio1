@@ -264,11 +264,11 @@ footer a:hover {
 .project-header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Alinha os itens no topo */
-    margin: 0 auto 30px;
-    max-width: 1200px;
+    align-items: flex-start;
+    margin-bottom: 30px;
     padding: 0 20px;
-    
+    width: 100%; /* Garante que ocupe toda a largura */
+    max-width: 100%; /* Evita que fique limitado */
 }
 #project-details {
     text-align: left; /* Isso corrige o alinhamento geral */
@@ -277,7 +277,9 @@ footer a:hover {
     margin: 0 auto; /* Centraliza apenas o bloco, não o conteúdo */
 }
 .project-tools {
-    flex: 0 0 45%;
+    flex: 1;
+    max-width: 40%;
+    text-align: left;
 }
 
 .project-tools h3 {
@@ -293,9 +295,12 @@ footer a:hover {
 }
 
 .project-description {
-   flex: 0 0 50%;
+    flex: 1;
+    max-width: 55%;
+    text-align: left;
+    font-size: 1rem;
     line-height: 1.6;
-    margin-top: 1.8rem;
+    color: var(--primary-color);
 }
 
 /* Ajustes para responsividade */

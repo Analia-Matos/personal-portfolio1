@@ -40,6 +40,12 @@ body {
     color: var(--text-color);
 }
 
+.navbar-name a {
+  color: inherit;       /* mantém a cor atual */
+  text-decoration: none; /* remove o sublinhado */
+  font-weight: bold;    /* deixa mais forte */
+}
+
 #navbar ul {
     list-style: none;
     padding: 0;

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Revista - Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="navbar-name">Anália Matos</div>
+            <ul>
+                <li><a href="index.html#welcome-section">Home</a></li>
+                <li><a href="index.html#projects">Projetos</a></li>
+                <li><a href="index.html#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="project-details">
+            <h2>Revista</h2>
+            <div class="project-images">
+                <div class="project-header">
+                    <div class="project-tools">
+                        <h3>Detalhes do Projeto</h3>
+                        <p class="tools-used">Ferramentas: Adobe InDesign, Photoshopn Illustrator</p>
+                    </div>
+                    <p class="project-description">
+                        Este projeto consiste no desenvolvimento de uma revista insitucional disponível para alunos e colaboradores em PDF. 
+                        Aqui você pode visualizar o material completo diretamente ou fazer o download.
+                    </p>
+                </div>
+
+                <!-- PDF Embutido -->
+                <div class="pdf-container">
+                    <object data="revista.pdf" type="application/pdf" width="100%" height="600px">
+                        <p>Seu navegador não consegue exibir PDFs.
+                           <a href="revista.pdf" target="_blank">Clique aqui para abrir</a>.
+                        </p>
+                    </object>
+
+                    <div class="pdf-button">
+                        <a href="revista.pdf" target="_blank">📂 Ver/baixar PDF</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a id="profile-link" href="https://www.linkedin.com/in/anália-matos-268838155" target="_blank">Conecte-se comigo no LinkedIn</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -341,7 +341,7 @@ footer a:hover {
 
 .pdf-button a {
     background-color: var(--primary-color);
-    color: var(--text-color);
+    color: var(--secondary-color);
     padding: 12px 24px;
     border-radius: 8px;
     text-decoration: none;

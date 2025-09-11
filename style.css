@@ -316,3 +316,51 @@ footer a:hover {
         font-size: 1.5rem;
     }
 }
+
+/* Página de PDF */
+.project-pdf {
+    padding: 80px 20px; /* deixa espaço por causa da navbar fixa */
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.project-pdf h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.pdf-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.pdf-button {
+    margin-top: 20px;
+}
+
+.pdf-button a {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color var(--transition-speed) ease;
+}
+
+.pdf-button a:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    .project-pdf h2 {
+        font-size: 2rem;
+    }
+
+    .pdf-container object {
+        height: 400px;
+    }
+}
+
